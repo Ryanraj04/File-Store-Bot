@@ -39,9 +39,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5002805585"))
 #port set to default 8080, change according to your will.
 PORT = os.environ.get("PORT", "8080")
 # Enter your MongoDB connection URL. You can use a free cloud database from MongoDB Atlas.
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://samaasta28_db_user:<ujxzOgsZUFsvWYpw>@cluster0.ng3nok7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sekh69u_db_user:YQomCkK6l96vECsY@cluster0.aqweohs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # Enter the name of your MongoDB database.
-DB_NAME = os.environ.get("DB_NAME", "samaasta28")
+DB_NAME = os.environ.get("DB_NAME", "sekh69u")
 
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
