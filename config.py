@@ -27,7 +27,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am made by @trinityXmods")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6251152659:AAH9UfFGmghKO-p6sY14ZkJXDc3xnUOISFs") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
 APP_ID = int(os.environ.get("APP_ID", "14221617"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
