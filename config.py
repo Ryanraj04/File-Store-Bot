@@ -1,14 +1,5 @@
 # ────────────────────────────────────────────────────────────────
 
-# ✅ THIS PROJECT IS DEVELOPED AND MAINTAINED BY @trinityXmods (TELEGRAM)
-# 🚫 DO NOT REMOVE OR ALTER THIS CREDIT LINE UNDER ANY CIRCUMSTANCES.
-
-# ⭐ FOR MORE HIGH-QUALITY OPEN-SOURCE BOTS, FOLLOW US ON GITHUB.
-# 🔗 OFFICIAL GITHUB: https://github.com/Trinity-Mods
-# 📩 NEED HELP OR HAVE QUESTIONS? REACH OUT VIA TELEGRAM: @velvetexams
-
-# ────────────────────────────────────────────────────────────────
-
 from operator import add
 import os
 import logging
@@ -16,18 +7,18 @@ from logging.handlers import RotatingFileHandler
 
 # Specify the Telegram channel or group ID that users must join (force-subscribe) before using the bot.
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001331937544"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001666185739"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001797362036"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001244817896"))
 
 
 # Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 # Default reply sent to users when they message the bot directly.
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am made by @trinityXmods")
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "Hi, I am made by Noone")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6251152659:AAH9UfFGmghKO-p6sY14ZkJXDc3xnUOISFs") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6251152659:AAGX-jYU23zImYhPGrH_a_fVd8-vnznQeWE") 
 # Provide the API ID associated with your Telegram application (from https://my.telegram.org/apps)
 APP_ID = int(os.environ.get("APP_ID", "14221617"))
 # Provide the API Hash linked to your Telegram application (available at https://my.telegram.org/apps)
@@ -46,7 +37,7 @@ DB_NAME = os.environ.get("DB_NAME", "sekh69u")
 # Set the number of worker threads for the bot. To avoid sleeping issues and improve performance, keep it above 50 (recommended).
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
 # Message displayed to users when they click the Start button or send the /start command.
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🌚\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴡᴏʀᴋ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴏɴʟʏ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! 🎀")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!🤡\n\nɪ ᴀᴍ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ꜱʜᴀʀᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ꜱᴘᴇᴄɪᴀʟ ʟɪɴᴋꜱ!! 🪄\n\nɪ ᴡᴏʀᴋ ᴡɪᴛʜɪɴ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ᴏɴʟʏ ᴀɴᴅ ʏᴏᴜ ᴀʀᴇ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴜꜱᴇ ᴍᴇ! 🎀")
 # Enter your Telegram username (without @). A public username is required to use this bot.
 OWNER_TAG = os.environ.get("OWNER_TAG", "the_shilpohh_being")
 # Time (in seconds) after which messages will be auto-deleted. Use 0 to keep messages permanently.
@@ -74,9 +65,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/infohub_updates/34")
 # Set to TRUE to activate payments in the bot and earn money.
 USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "False") == "TRUE" else False) and (USE_SHORTLINK) else False
 # Enter your UPI ID for receiving payments.
-UPI_ID = os.environ.get("UPI_ID", "sendrajbooks@fam")
+UPI_ID = os.environ.get("UPI_ID", "none")
 # Enter the direct image URL of your UPI QR code (used for payment).
-UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "https://envs.sh/Vpg.jpg")
+UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "0")
 #No need to change anything here.
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/{OWNER_TAG}")
 # Define subscription durations and their respective prices:
@@ -100,7 +91,7 @@ PRICE5 = os.environ.get("PRICE5", "₹285")
 # Message shown to users when they are required to join a channel or group (force subscription prompt).
 FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!👋\n\n<b>ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ, ʏᴏᴜ ᴀʀᴇ ʀᴇQᴜᴇꜱᴛᴇᴅ ᴛᴏ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ʙʏ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴄʜᴀɴɴᴇʟꜱ ᴀɴᴅ ɢʀᴏᴜᴘꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ:</b>")
 # Enter a custom caption that will be auto-attached to files shared by the bot.
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is designed with ❤️ by :\n\n<b>Trinity Mods</b>\n\nGithub: https://github.com/Trinity-Mods\nTelegram: https://t.me/trinityXmods")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "0")
 # Protect content from being forwarded or saved. Set to TRUE to enable, FALSE to disable (recommended: FALSE).
 PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
 # Use this option if you do not want buttons to appear on posts in the database channel.  
@@ -139,13 +130,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
-# ────────────────────────────────────────────────────────────────
 
-# ✅ THIS PROJECT IS DEVELOPED AND MAINTAINED BY @trinityXmods (TELEGRAM)
-# 🚫 DO NOT REMOVE OR ALTER THIS CREDIT LINE UNDER ANY CIRCUMSTANCES.
-
-# ⭐ FOR MORE HIGH-QUALITY OPEN-SOURCE BOTS, FOLLOW US ON GITHUB.
-# 🔗 OFFICIAL GITHUB: https://github.com/Trinity-Mods
-# 📩 NEED HELP OR HAVE QUESTIONS? REACH OUT VIA TELEGRAM: @velvetexams
-
-# ────────────────────────────────────────────────────────────────
